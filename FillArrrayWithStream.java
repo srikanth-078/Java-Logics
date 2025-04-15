@@ -1,7 +1,7 @@
 public class FillArrrayWithStream {
     
     public static void main(String[] args){
-        //Create an int array with numbers from 1 (inclusive) to 8 (exclusive): [11, 12]
+        //Create an int array with numbers from 1 (inclusive) to 8 (exclusive): [1, 7]
         //using streams
         int a[] = java.util.stream.IntStream.range(1,8).toArray();
         //Printing with for each loop
